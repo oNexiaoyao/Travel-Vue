@@ -21,6 +21,7 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
+
 @import '~@/assets/styles/varibles.styl'
 .header
     display: flex
@@ -33,6 +34,7 @@ export default {
         .back-icon
             text-align: center
             font-size: .4rem
+            margin-left: .2rem
     .header-input
         flex: 1
         height: .64rem

@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router/index';
+import VueAwesomeSwiper from 'vue-awesome-swiper';
 // 解决移动端 300ms 点击延迟
 import fastClick from 'fastclick';
 // 重置浏览器样式
@@ -10,6 +11,7 @@ import './assets/styles/reset.css';
 import './assets/styles/border.css';
 // 引入图标
 import './assets/styles/iconfont.css';
+import 'swiper/dist/css/swiper.css'
 
 Vue.config.productionTip = false;
 if ('addEventListener' in document) {
@@ -17,6 +19,7 @@ if ('addEventListener' in document) {
     fastClick.attach(document.body);
   }, false);
 }
+Vue.use(VueAwesomeSwiper)
 new Vue({
   router,
   render: h => h(App),
