@@ -19,7 +19,6 @@ export default {
     name: 'HomeHeader'
 }
 </script>
-
 <style lang="stylus" scoped>
 @import '~@/assets/styles/varibles.styl'
 .header
