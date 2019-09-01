@@ -34,6 +34,7 @@ export default {
         .back-icon
             text-align: center
             font-size: .4rem
+            margin-left: .2rem
     .header-input
         flex: 1
         height: .64rem
