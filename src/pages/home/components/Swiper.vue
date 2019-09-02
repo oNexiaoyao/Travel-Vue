@@ -40,15 +40,15 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-    // 样式穿透，否则设置的样式只在当前组件有效
-    .wrapper >>> .swiper-pagination-bullet-active
-        background-color: #fff
-    .wrapper
+// 样式穿透，否则设置的样式只在当前组件有效
+.wrapper >>> .swiper-pagination-bullet-active
+    background-color: #fff
+.wrapper
+    width: 100%
+    height: 0
+    overflow: hidden
+    padding-bottom: 26.7%
+    background-color: #eee
+    .swiper-img
         width: 100%
-        height: 0
-        overflow: hidden
-        padding-bottom: 26.7%
-        background-color: #eee
-        .swiper-img
-            width: 100%
 </style>
