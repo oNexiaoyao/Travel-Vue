@@ -30,6 +30,6 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ***
 
-7-5
+7-6
 
 [去哪儿网](https://piao.qunar.com/touch/)
